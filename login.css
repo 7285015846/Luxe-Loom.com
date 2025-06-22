@@ -1,0 +1,122 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url(ip/1e50efd2-8e3a-4c89-b200-0cb86d4ee5cb.jpg);
+    background-size: cover;
+}
+
+header {
+    background-color: #ffffff;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ }
+ 
+/* Navigation Bar Styles */
+.navbar-nav .nav-link {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Wrapper for Login Form */
+.wrapper {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+/* Form Styles */
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-box i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6c757d;
+}
+
+.remember-frogot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.remember-frogot label {
+    font-size: 14px;
+}
+
+.remember-frogot a {
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.remember-frogot a:hover {
+    text-decoration: underline;
+}
+
+/* Button Styles */
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+/* Registration link Styles */
+.register-lint {
+    text-align: center;
+    color: white;
+}
+
+.register-lint p {
+    margin-top: 20px;
+}
+
+.register-lint a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.register-lint a:hover {
+    text-decoration: underline;
+}

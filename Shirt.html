@@ -1,0 +1,104 @@
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe Loom - Home</title>
+    <link rel="stylesheet" href="T-Shirt.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="Home.html"><img src="ip/Logo maker project (4).jpeg" alt="Luxe Loom Logo" style="width: 100px;"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto"> 
+                    <li class="nav-item"><a class="nav-link" href="Home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login signup.html">Login/Signup</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1><center>Shirt</center></h1>
+
+        <div class="row">
+            <!-- Example product format below. Repeat and modify accordingly. -->
+            <div class="col-md-4">
+                <div class="product">
+                    <a href=""><img src="shirt/Polo Shirt/PL 1.avif" alt="Polo Shirt" class="img-fluid"></a>
+                    <h2>Polo Shirt</h2>
+                    <p class="price">$19.99</p>
+                    <button class="buy-btn" onclick="addToCart('Polo Shirt', 19.99)">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product">
+                    <a href=""><img src="shirt/Dress Shirt/Drees 1.jpeg" alt="Dress Shirt" class="img-fluid"></a>
+                    <h2>Dress Shirt</h2>
+                    <p class="price">$24.99</p>
+                    <button class="buy-btn" onclick="addToCart('Dress Shirt', 24.99)">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product">
+                    <a href=""><img src="shirt/Flannel Shirt/Fla 1.avif" alt="Flannel Shirt" class="img-fluid"></a>
+                    <h2>Flannel Shirt</h2>
+                    <p class="price">$29.99</p>
+                    <button class="buy-btn" onclick="addToCart('Flannel Shirt', 29.99)">Buy Now</button>
+                </div>
+            </div>
+            <!-- Continue the pattern below -->
+            <div class="col-md-4">
+                <div class="product">
+                    <a href=""><img src="shirt/Linen Shirt/Lin 1.webp" alt="Linen Shirt" class="img-fluid"></a>
+                    <h2>Linen Shirt</h2>
+                    <p class="price">$27.99</p>
+                    <button class="buy-btn" onclick="addToCart('Linen Shirt', 27.99)">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product">
+                    <a href=""><img src="shirt/Denim Shirt/De 1.jpg" alt="Denim Shirt" class="img-fluid"></a>
+                    <h2>Denim Shirt</h2>
+                    <p class="price">$32.99</p>
+                    <button class="buy-btn" onclick="addToCart('Denim Shirt', 32.99)">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product">
+                    <a href=""><img src="shirt/Henley Shirt/He 1.avif" alt="Henley Shirt" class="img-fluid"></a>
+                    <h2>Henley Shirt</h2>
+                    <p class="price">$21.99</p>
+                    <button class="buy-btn" onclick="addToCart('Henley Shirt', 21.99)">Buy Now</button>
+                </div>
+            </div>
+            <!-- Repeat this structure for all remaining shirts, updating name and price -->
+        </div>
+    </main>
+
+    <footer class="text-center">
+        <p>&copy; 2023 Luxe Loom. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        let cartCount = 0;
+
+        function addToCart(item, price) {
+            cartCount++;
+            alert(item + ' has been added to your cart for $' + price.toFixed(2));
+        }
+    </script>
+    </div>
+</body>
+</html>

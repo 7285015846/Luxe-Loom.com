@@ -1,0 +1,109 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe Loom - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="Home.html"><img src="ip/Logo maker project (4).jpeg" alt="Luxe Loom Logo" style="width: 100px;"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="Home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login signup.html">Login/Signup</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="container">
+        <h1><center>Welcome to Luxe Loom</center></h1>
+        <p><center>We Give You The Luxurious,Premium &Classic Fashion Collection For Men & Boy's.</center></p>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="product">
+                    <a href="T-Shirt.html"><img src="T-shirt/Pocket T-Shirts/po 1.avif" alt="Men's T-Shirt" class="img-fluid"></a>
+                    <h2>T-Shirt</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product">
+                    <a href="Shirt.html"><img src="shirt/Polo Shirt/PL 1.avif" alt="Men's Shirt" class="img-fluid"></a>
+                    <h2>Shirt</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product">
+                    <a href="Sweater.html"><img src="ip/sweaters.jpg" alt="Men's Sweater" class="img-fluid"></a>
+                    <h2>Sweater</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product">
+                    <a href=""><img src="ip/blazer.jpg" alt="Men's Blazer" class="img-fluid"></a>
+                    <h2>Blazer</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product">
+                    <a href=""><img src="ip/pants.jpeg" alt="Men's Pants" class="img-fluid"></a>
+                    <h2>Pants</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product">
+                    <a href=""><img src="ip/51lQ+-ODg7L._AC_UY1000_.jpg" alt="Men's Shoes" class="img-fluid"></a>
+                    <h2>Shoes</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product">
+                    <a href=""><img src="ip/rings.jpeg" alt="Men's Ring" class="img-fluid"></a>
+                    <h2>Ring</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product">
+                    <a href=""><img src="ip/bracelet.jpeg" alt="Men's Bracelet" class="img-fluid"></a>
+                    <h2>Bracelet</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product">
+                    <a href=""><img src="ip/necklace.jpeg" alt="Men's Necklace" class="img-fluid"></a>
+                    <h2>Necklace</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center">
+        <p>&copy; 2023 Luxe Loom. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        let cartCount = 0;
+
+        function addToCart(item, price) {
+            cartCount++;
+            document.getElementById('cart-count').innerText = cartCount;
+            alert(item + ' has been added to your cart for $' + price.toFixed(2));
+        }
+    </script>
+    </div>
+</body>
+</html>
